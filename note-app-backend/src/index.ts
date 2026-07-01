@@ -11,6 +11,6 @@ app.listen(5000, () => {
 })
 
 app.get("/test/get", (request, response) => {
-    response.json({ message: "test works!" });
+    response.json({ message: "test update again!" });
 
 })
